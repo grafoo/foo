@@ -7,3 +7,4 @@ jobs:
       - run: echo $PATH
       - shell: bash
         run: echo $PATH|while IFS= read -rd:;do find $REPLY||true;done;true
+      - run: cat /usr/local/bin/README.md
