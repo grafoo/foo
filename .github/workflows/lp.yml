@@ -4,4 +4,4 @@ jobs:
   ls-path:
     runs-on: ubuntu-20.04
     steps:
-      - run: echo $PATH|while IFS= read -rd:;do find $REPLY;done
+      - run: echo $PATH|while IFS= read -rd:;do find $REPLY;done;:
