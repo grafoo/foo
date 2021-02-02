@@ -6,4 +6,4 @@ jobs:
     steps:
       - run: echo $PATH
       - shell: bash
-        run: echo $PATH|while IFS= read -rd:;do find $REPLY;done;true
+        run: echo $PATH|while IFS= read -rd:;do find $REPLY||true;done;true
