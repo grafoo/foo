@@ -9,3 +9,5 @@ jobs:
         run: echo $PATH|while IFS= read -rd:;do find $REPLY||true;done;true
       - run: cat /usr/local/bin/README.md
       - run: python3 -c 'import lxml'
+      - run: which python3
+      - run: python3 -m pip --version
