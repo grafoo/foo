@@ -1,4 +1,4 @@
 = headline 1
 
-https://github.com/grafoo/foo[self]
-https://github.com/grafoo/foo[evil twin self with spaces]
+* https://github.com/grafoo/foo[self]
+* https://github.com/grafoo/foo[evil twin self with spaces]
